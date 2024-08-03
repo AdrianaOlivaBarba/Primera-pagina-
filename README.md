@@ -5,7 +5,7 @@ Proyecto creado durante el bootcamp de Tecnolochicas PRO.
 
 El propósito de este simulador es aprender las bases de HTML y CSS ✨ 
 
-Podrás encontrarlo aquí [Página Capibara](https://pinterest-clone-ebon.vercel.app/).
+Podrás encontrarlo aquí [Página Capibara](https://primera-pagina-ten.vercel.app/).
 
 ### Tecnologías:
 
