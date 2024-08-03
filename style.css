@@ -1,0 +1,75 @@
+/* selector universal (colocar * significa seleccionar todo) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* selector etiqueta (colocar nombre de la etiqueta) */
+body {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,229,148,1) 100%);
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color: #0D1F2D;
+}
+h2 {
+    color: rgb(#546A7B);
+}
+/* selector de clase (class) */
+.parrafo1{
+    color: #9EA3B0;
+}
+.parrafo2 {
+    color: rgb(148, 10, 111);
+}
+.subtituloazul {
+    color: #9B5E35;
+}
+/* selector de identificador unico (id) */
+#actividades {
+    color: #546A7B;
+}
+/* colocar imagen de fondo*/
+.conocecapibara {
+    background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    padding: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagen1 {
+    height:auto;
+    margin: 34px;
+    border-radius: 479px;
+    border: solid
+}
+.imagen2 {
+    margin: 60px;
+    border-radius: 46px;
+}
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    background-color:antiquewhite;
+    margin: 15px;
+    overflow: none;
+}
+.menu ul{
+    display: flex; 
+    justify-content: end;
+    list-style: none;
+    margin: 0;
+}
+.menu ul li a {
+    display: block;
+    color: #9B5E35;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}

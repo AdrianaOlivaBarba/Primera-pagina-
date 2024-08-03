@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Capibaras </title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#comportamiento">Comportamiento</a>
+                </li>
+                <li>
+                    <a href="#galeria">Galeria</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="conocecapibara">
+        <!-- Comentario no se visualiza en el sitio -->
+        <h1>¡Conoce al Capibara, el Roedor Gigante! </h1>
+    </div>
+    <!-- Párrafo -->
+    <h2>Descubre las maravillas del animal más grande de su especie</h2>
+    <h3>¿Sabías que existe un roedor del tamaño de un perro grande?</h3>
+    <p class="parrafo1">¡Es el capibara!
+        <br>
+        Originario de América del Sur, este animal fascinante habita cerca de ríos y lagos, donde pasa gran parte de su
+        tiempo nadando y buscando alimento.
+    </p>
+    <p class="parrafo2">
+        Con su carácter sociable y su apariencia amigable, los capibaras son conocidos por formar grandes grupos y
+        convivir pacíficamente con otras especies.</p>
+    <hr>
+    <section>
+        <H3 id="galeria">Galeria</H3>
+        <div class="container">
+            <!-- Imágenes locales hacer carpeta primero y despues en "src" se escribe / y se busca la carpeta de imágenes y selecciona el archivo-->
+        <img class="imagen2" style="width: 300px;" src="/imagenes/bebecapibara.png" alt="Capibara bebé">
+        <!-- Imágenes de internet "src" se pega la "URL de dirección de la imagen"-->
+    <img class="imagen1" style="width: 300px;"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Capivara%28Hydrochoerus_hydrochaeris%29.jpg/800px-Capivara%28Hydrochoerus_hydrochaeris%29.jpg"
+    alt="Capibara con sus 3 crias">
+        </div>
+    </section>
+    <!-- Lista desordenada-->
+    <h2 id="comportamiento" class="subtituloazul">Comportamiento:</h2>
+    <ul>
+        <li>Socializar: Viven en grupos y disfrutan de la compañía.</li>
+        <li>Descansar: Después de comer y jugar, les gusta relajarse.</li>
+        <li>Explorar: Son curiosos y les gusta descubrir nuevos lugares.</li>
+        <li>Comer: Su alimentación se basa en plantas y hierbas.</li>
+        <li>Jugar: Los capibaras jóvenes son muy juguetones.</li>
+    </ul>
+    <h2 class="subtituloazul">Cuidados básicos para un capibara</h2>
+    <ol>
+        <li>Espacio adecuado</li>
+        <li>Alimentación correcta</li>
+        <li>Buscar atención a su salud</li>
+        <li>Enriquecimiento ambiental</li>
+        <li>Permitirle socializar</li>
+    </ol>
+    <!--Agregar links que abren en la misma pestaña-->
+    <a href="https://zooguadalajara.com.mx/animales/detalle/83">Click aquí para conocer mas de los capibaras</a>
+    <br>
+    <!--Agregar links que abren en otra pestaña-->
+    <a href="https://zooguadalajara.com.mx/animales/detalle/83" target="_blank">Mas de los capibaras</a>
+    <br>
+    <hr>
+    <h3>¿Quieres saber más sobre estas increíbles criaturas?</h3>
+    <a href="https://www.zoobotanicojerez.com/coleccion-zoologica/relacion-de-especies/capibara-hydrochaeris-hydrochaeris"
+        target="_blank">¡Visita y descubre cómo puedes ayudar a protegerlos!</a>
+    <br>
+    <hr>
+    <!-- Formularios-->
+    <form action="">
+        <label for="">Nombre</label>
+        <!--Input entrada de interacción con el usuario de la página-->
+        <input type="text">
+        <h3>¿Te gustan los capibaras?</h3>
+        <label for="">Si</label>
+        <input type="radio">
+        <br>
+        <label for="">No</label>
+        <input type="radio">
+        <h3>¿Cuándo te gustaría conocer un capibara en persona?</h3>
+        <label for="">Hoy</label>
+        <input type="checkbox">
+        <br>
+        <label for="">Mañana</label>
+        <input type="checkbox">
+        <br>
+        <label for="">La próxima semana</label>
+        <input type="checkbox">
+        <br>
+        <label for="">El próximo mes</label>
+        <input type="checkbox">
+        <h3>¿De qué color son los capibaras?</h3>
+        <label for="">color</label>
+        <input type="color">
+    </form>
+</body>
+</html>
